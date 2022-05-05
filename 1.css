@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+}
+
+.rainbow {
+    height: 200px;
+    overflow: hidden;
+}
+
+.rainbow div {
+    overflow: hidden;
+}
+
+.rainbow>div {
+
+    width: 400px;
+    height: 400px;
+    background: red;
+    border-radius: 50%;
+}
+
+.rainbow>div>div {
+
+    height: 380px;
+    margin: 10px;
+    background: hsl(37, 96%, 49%, 0.976);
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div {
+
+    margin: 10px;
+    height: 360px;
+    background: yellow;
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div>div {
+
+    margin: 10px;
+    height: 340px;
+    background: hsl(134, 100%, 50%);
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div>div>div {
+
+    margin: 10px;
+    height: 320px;
+    background: rgb(5, 190, 163);
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div>div>div>div {
+
+    margin: 10px;
+    height: 300px;
+    background: rgb(11, 74, 232);
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div>div>div>div>div {
+
+    margin: 10px;
+    height: 280px;
+    background: rgb(167, 10, 215);
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div>div>div>div>div>div {
+
+    margin: 10px;
+    height: 260px;
+    background: white;
+    border-radius: 50%;
+}
